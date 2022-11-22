@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>give</title>
+    <link rel="icon" href="give.n.take.png">
+</head>
+
+
+<body style="background-image: url('give.n.take.png'); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+    <h1>Welcome !</h1>
+    <p><strong>Please fill in your item description below:</strong></p>
+    <br>
+    <h3><u>Personal Information</u></h3>
+    <form action=submit.html>
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First name:</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lname">Last name:</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+        <hr style="width:20%;text-align:left;margin-left:0">
+        <h3><u>Item Information</u></h3>
+        <p>
+            Category: <br>
+            <select name="category">
+                <option>Appliances
+                <option>Furniture
+                <option>Home and Garden
+                <option>Cellular
+                <option>Computers and Tablets
+            </select>
+        </p>
+        <p>
+            Item Description: <br>
+            <input type="text">
+        </p>
+        <p>
+            Item Condition: <br>
+            <input type="checkbox" name="new"> New <br>
+            <input type="checkbox" name="used"> Used <br>
+            <input type="checkbox" name="repair"> Repair needed <br>
+        </p>
+        <p>
+            Upload an image: <br>
+            <input type="file">
+        </p>
+        <hr style="width:20%;text-align:left;margin-left:0">
+        <h3><u>Location</u></h3>
+        <input type="radio" name="location" value="north"> North <br>
+        <input type="radio" name="location" value="south"> South <br>
+        <input type="radio" name="location" value="center"> Center <br><br><br>
+        <p align="center">
+            <input type="reset">
+            <input type="submit">
+        </p>
+    </form>
+    <p align="center"><a href="../index.html"><button style="background:#3630a3;color:white;" type="button">Back to Main Manu</button></a></p>
+</body>
+
+</html>
